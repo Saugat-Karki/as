@@ -101,6 +101,7 @@ padding-left: 12px;
     float: right;
     margin-top: 3%;
     cursor: pointer;
+    display:none;
     margin-right: 20px;
 }
 .line1 {
