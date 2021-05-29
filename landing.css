@@ -241,7 +241,7 @@ padding-left: 30px;
     
 }
 .social-media .sm-icons {
-    color: #896ff0;
+    color: #9aa1fa;
     font-size: 32px;
     padding:20px;
 
@@ -297,7 +297,7 @@ padding-left: 30px;
     transition-timing-function: ease-in;
 }
 .fa-home  {
-    color: #8064ef;
+    color:#9aa1fa ;
     padding-right: 20px;
     font-size: 32px;
     transform: translateY(3px);
@@ -306,7 +306,7 @@ padding-left: 30px;
     
 }
 .fa-user-circle  {
-    color: #8064ef;
+    color: #9aa1fa;
      padding-right: 20px;
     transform: translateY(3px);
     font-size: 30px;
@@ -316,7 +316,7 @@ padding-left: 30px;
     
 }
 .fa-tasks  {
-    color: #8064ef;
+    color: #9aa1fa;
      padding-right: 20px;
     font-size: 27px;
     transform: translateY(3px);
@@ -325,7 +325,7 @@ padding-left: 30px;
 
 }
 .fa-envelope  {
-    color: #8064ef;
+    color: #9aa1fa;
      padding-right: 20px;
     font-size: 28px;
     transform: translateY(3px);
