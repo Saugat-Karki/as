@@ -143,13 +143,14 @@ padding-left: 12px;
 
 
     
- nav.navigation-bar {
+ .navigation-bar {
     width:100%;
     margin-top: 0;
     box-shadow:1px 1px 3px  rgb(219, 217, 217);
     height: 7.5vh;
     background-color: whitesmoke; 
     border-radius: 0; 
+    transition: 0.2s;
 }
 
 .logo-nav {
@@ -259,11 +260,14 @@ font-family: monospace;
 .bar-1-active {
     transform: rotateZ(45deg) translateX(4.5px) translateY(7px) ;
     transition-timing-function: ease-in-out;
+    background-color: white;
+
     
 }
 .bar-2-active {
     transform: rotateZ(-45deg) translateX(4.5px) translateY(-7px);
     transition-timing-function: ease-in-out;
+    background-color: white;
     
     
 }
@@ -277,6 +281,10 @@ font-family: monospace;
 }
 .burgermenu {
    display: block;
+}
+.navactive {
+    background-color: #8064ef;
+    transition-timing-function: ease-in;
 }
 
 
