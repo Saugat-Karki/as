@@ -45,6 +45,7 @@
     const lineTwo = document.querySelector(".line3")
     const lineThree = document.querySelector(".line2")
     const logo = document.querySelector(".logo-nav");
+    const navActive = document.querySelector(".navigation-bar")
 
     burger.addEventListener("click" , () => {
         slider.classList.toggle("afterClick");
@@ -52,6 +53,7 @@
         lineTwo.classList.toggle("bar-2-active");
         lineThree.classList.toggle("bar-3-active");
         logo.classList.toggle("logo-remove");
+        navActive.classList.toggle("navactive");
     });
 
     
