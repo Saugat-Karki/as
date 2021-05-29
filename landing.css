@@ -15,6 +15,7 @@
     justify-content: space-evenly;
     
     height: 7.5vh;
+    margin-top: 1%;
     background-color: rgb(255, 255, 255);  
 }
 
@@ -25,6 +26,7 @@
     font-weight: bold;
     color: #8064ef;
     font-size: 25px;
+    
     font-family: monospace;
 }
 
@@ -41,45 +43,15 @@
         
 }
 .nav-links li a  {
-color: rgb(146, 143, 143);
+color: rgb(136, 133, 133);
 font-weight: 500;
 text-decoration: none;
 font-size: 14px;
 transition: .2s;
-
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: 1px;
+font-family: monospace
 }
-.nav-links  .contactli .contact{
-   
-    color: rgb(255, 255, 255);
-    display: block;
-    transition: .1s;
-    width: 100%;
-    
 
-    
-
-
-
-}
-.nav-links  .contactli{
-   
-display:flex;
-
-width: 80px;
-border-radius: 20px;
-margin-top: 10px;
-height: 35px;
-text-align: center;
-align-items: center;
-background-color: #8064ef;
-    transition: .2s;
-
-    
-
-
-
-}
 
 
 .nav-links li a::after {
@@ -99,14 +71,7 @@ background-color: #8064ef;
     transition-timing-function: ease-in-out;
     
 }
-.nav-links li .contact:hover {
-    background-color: #5b37ec;
-    transition-timing-function: ease-in-out;
-    color: white;
-    border-radius: 20px;
 
-    
-}
 .nav-links li .contact:hover::after {
     width: 0;
 }
@@ -156,6 +121,32 @@ background-color: #8064ef;
     transition: .3s;
 
 }
+.fa-home  {
+    display: none;
+
+    
+}
+.fa-user-circle  {
+   display: none;
+    
+}
+.fa-tasks  {
+    display: none;
+
+
+}
+.fa-envelope  {
+    display: none;
+
+
+    
+}
+.findmediv {
+   
+    display: none;
+    
+}
+
 
 
 
@@ -172,6 +163,8 @@ background-color: #8064ef;
     background-color: rgb(255, 255, 255); 
     transition: 0.2s;
     display: block;
+    margin-top: 0;
+
 }
 
 .logo-nav {
@@ -187,7 +180,7 @@ background-color: #8064ef;
 
 .nav-links {
     width: 100%;
-    background-color: rgb(5, 4, 14);
+    background-color:#ffffff;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -195,7 +188,7 @@ background-color: #8064ef;
     margin-right: 0;
     position: fixed;
     float: right;
-    align-content: center;
+    align-content: space-around;
     justify-content: start;
     transform: translateX(100%);
     transition: .4s;
@@ -206,48 +199,22 @@ background-color: #8064ef;
     display: flex;
     margin-top: 20px;
     margin-bottom: -20px;
-    justify-content: center;
-    
-        
+    justify-content: start;
+    align-content: center;        
 }
 .nav-links li a  {
-color: rgb(223, 221, 221);
-font-weight: 700;
+color: black;
+font-weight: 500;
 text-decoration: none;
-font-size: 25px;
-
+font-size: 20px;
+letter-spacing: 1px;
 font-family: monospace;
-}
-
-
-.nav-links li .contact{
-   
-    color: rgb(0, 0, 0);
-  background-color: #8064ef ;
-  border-radius: 12px;
-  letter-spacing: 1px;
-  margin-top: 30px;
-  font-size: 23px;
-
-
-
+padding-left: 30px;
 
 }
-.nav-links  .contactli{
-   
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    border-radius: 20px;
-    margin-top: 10%;
-    height: 30px;
-    text-align: center;
-    align-items: center;
-    background-color: #8064ef;
-    transition: .2s;
-    
-    }
+
+
+
 
 .nav-links li a::after {
     content: '';
@@ -269,13 +236,15 @@ font-family: monospace;
     display: flex;
     width: 100%;
     height: 150px;
-
-    padding-top: 40px;
+   justify-content: center;
+    margin-left: none;
+    
 }
 .social-media .sm-icons {
     color: #896ff0;
-    font-size: 40px;
+    font-size: 32px;
     padding:20px;
+
     display: block;
 }
 .banner-nav {
@@ -286,7 +255,7 @@ font-family: monospace;
     height: 20px;
     justify-content: center;
     display: flex;
-    margin-top: 40%;
+    margin-top: 20%;
     
 }
 .copyrightinmobile {
@@ -300,7 +269,7 @@ font-family: monospace;
 .bar-1-active {
     transform: rotateZ(45deg) translateX(4.5px) translateY(7px) ;
     transition-timing-function: ease-in-out;
-    background-color: white;
+    background-color: #8064ef;
     
 
     
@@ -308,7 +277,7 @@ font-family: monospace;
 .bar-2-active {
     transform: rotateZ(-45deg) translateX(4.5px) translateY(-7px);
     transition-timing-function: ease-in-out;
-    background-color: white;
+    background-color: #8064ef;
     
     
 }
@@ -324,9 +293,99 @@ font-family: monospace;
    display: block;
 }
 .navactive {
-    background-color: #8064ef;
+    background-color: white;
     transition-timing-function: ease-in;
+}
+.fa-home  {
+    color: #8064ef;
+    padding-right: 20px;
+    font-size: 32px;
+    transform: translateY(3px);
+    display: inline-block;
+
+    
+}
+.fa-user-circle  {
+    color: #8064ef;
+     padding-right: 20px;
+    transform: translateY(3px);
+    font-size: 30px;
+    display: inline-block;
+
+
+    
+}
+.fa-tasks  {
+    color: #8064ef;
+     padding-right: 20px;
+    font-size: 27px;
+    transform: translateY(3px);
+    display: inline-block;
+
+
+}
+.fa-envelope  {
+    color: #8064ef;
+     padding-right: 20px;
+    font-size: 28px;
+    transform: translateY(3px);
+
+    display: inline-block;
+    
+}
+
+.findmediv {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.findmep {
+    font-family: monospace;
+    color: #8064ef;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 
 } 
+
+
+
+/** div main introduction wala  **/
+
+
+.intro-div {
+    width: 90%;
+    height: 80vh;
+    background-image: linear-gradient(rgb(233, 233, 248), rgb(213, 235, 255));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+}
+.textsintro {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.headone {
+    font-size: 50px;
+    font-family :monospace;
+}
+.headtwo {
+    font-size: 35px;
+    font-family :monospace;
+    color:#5b37ec;
+    margin-top: 2%;
+
+}
+.headthree {
+    font-size: 20px;
+    margin-top: 4%;
+    font-family :monospace;
+    color:#6e6d6d;
+}
